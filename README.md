@@ -2,7 +2,7 @@
 
 # Some cool tools for STEAMID tomfoolery
 
-incrementn.cpp - increments the AccountID cleanly in order to list all n STEAMIDs
+incrementn.cpp - increments the AccountID cleanly in order to list all n STEAMIDs where n is less than 2^32
 
 incrementall.cpp - increments and lists STEAMIDs for all possible AccountIDs in the 32bit range
 
