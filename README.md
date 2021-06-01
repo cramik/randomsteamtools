@@ -4,7 +4,7 @@
 
 incrementn.cpp - increments the AccountID cleanly in order to list all n STEAMIDs where n is less than 2^32
 
-incrementall.cpp - increments and lists STEAMIDs for all possible AccountIDs in the 32bit range
+incrementall.cpp - increments and lists STEAMIDs for all possible AccountIDs in the 32bit range (4+ billion which takes awhile, as so there will be no example)
 
 steamidsforninstances.cpp - increments the 20-bit instance section n amount of times in order to create multiple links to a steam profile
 
