@@ -14,3 +14,5 @@ allinstanceids.7z - compressed output of steamidsforallinstances.cpp for an exam
 
 allinstanceslinks.7z - same as allinstanceids but as links (you can do this either by changing the cout to add the link [cout << "https://steamcommunity.com/profiles/"<<u_steamid<<"\n";] or by replacing every newline with a newline+the beginning of the link in a text editor)
 
+simplesteamscraper.cpp - scrapes ISteamUser/GetPlayerSummaries for incremented sets of 100 accounts and outputs the raw json response to a txt file for the user to parse (Yes I have it output the data as well, this is because it doesn't have any catches in place to stop it when it hits API limit or any errors [Keyword "Simple"])
+
